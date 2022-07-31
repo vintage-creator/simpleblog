@@ -1,0 +1,136 @@
+* {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  margin: 0 auto;
+  width: 75%;
+  padding: 10em 15em;
+}
+
+section .container h1 {
+  font-size: 3.3rem;
+  width: 80%;
+  margin-left: 0.5em;
+  text-align: center;
+}
+
+section .container #sub-heading {
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+  border-bottom: 3px solid;
+  margin-left: 3em;
+  padding-bottom: 2em;
+}
+
+section .container h3 {
+  font-size: 2.5em;
+  margin: 1.3em 7.8em;
+}
+
+section .container .container-blog {
+  margin-left: 4.5em;
+  width: 75%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "a b" "c d" "e f" "g h";
+}
+
+section .container .container-blog .container-blog-children1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: a;
+}
+
+section .container .container-blog .container-blog-children1 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: b;
+}
+
+section .container .container-blog .container-blog-children2 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: c;
+}
+
+section .container .container-blog .container-blog-children3 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: d;
+}
+
+section .container .container-blog .container-blog-children4 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: e;
+}
+
+section .container .container-blog .container-blog-children5 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: f;
+}
+
+section .container .container-blog .container-blog-children6 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: g;
+}
+
+section .container .container-blog .container-blog-children7 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+section .container .container-blog .container-blog-children8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: h;
+}
+
+section .container .container-blog .container-blog-children8 p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+/*# sourceMappingURL=main.css.map */

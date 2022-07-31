@@ -1,0 +1,121 @@
+* {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  $padding: 10em 15em;
+  $margin: 3em;
+  
+  section {
+    margin: 0 auto;
+    width: 75%;
+    padding: $padding;
+  
+    .container {
+      h1 {
+        font-size: 3.3rem;
+        width: 80%;
+        margin-left: 0.5em;
+        text-align: center;
+      }
+  
+      #sub-heading {
+        font-size: 1.5rem;
+        width: 70%;
+        text-align: center;
+        border-bottom: 3px solid;
+        margin-left: $margin;
+        padding-bottom: 2em;
+      }
+  
+      h3 {
+        font-size: 2.5em;
+        margin: 1.3em $margin * 2.6;
+      }
+  
+      .container-blog {
+        margin-left: $margin * 1.5;
+        width: 75%;
+        display: grid;
+        grid-template-areas:
+          "a b"
+          "c d"
+          "e f"
+          "g h";
+  
+        .container-blog-children1 {
+          grid-area: a;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children2 {
+          grid-area: b;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children3 {
+          grid-area: c;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children4 {
+          grid-area: d;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children5 {
+          grid-area: e;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children6 {
+          grid-area: f;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children7 {
+          grid-area: g;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+        .container-blog-children8 {
+          grid-area: h;
+  
+          p {
+            width: 80%;
+            text-align: center;
+            padding-bottom: 1.5em;
+          }
+        }
+      }
+    }
+  }
+  
